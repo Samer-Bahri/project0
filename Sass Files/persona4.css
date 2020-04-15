@@ -13,5 +13,16 @@ h1 {
 @media (max-width: 599px) {
   h1::before {
     content: "The Persona Compendium!"; } }
+table {
+  border-collapse: collapse; }
+
+table, td, tr, th {
+  border: 2px solid black; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px; }
 
 /*# sourceMappingURL=persona4.css.map */
