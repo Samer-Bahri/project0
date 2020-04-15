@@ -4,8 +4,15 @@
   border: 2px solid black;
   text-align: center; }
 
+h1, h2, h3 {
+  text-align: center;
+  color: green; }
+
 h1 {
-  text-align: center; }
+  color: crimson; }
+
+h3 {
+  color: yellow; }
 
 @media (min-width: 600px) {
   h1::before {
@@ -19,5 +26,9 @@ h1 {
   color: teal;
   background-color: pink;
   border: 2px solid black; }
+
+ul ul {
+  font-size: 25px;
+  color: yellow; }
 
 /*# sourceMappingURL=homepage.css.map */
