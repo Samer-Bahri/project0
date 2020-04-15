@@ -18,10 +18,11 @@ h1 {
     content: "The Persona Compendium!";
   }
 }
-table {
-  border-collapse: collapse;
-}
 
-table, td {
-  border: 1px solid black;
+#velvetList {
+  margin: 5px;
+  font-size: 18px;
+  color: teal;
+  background-color: pink;
+  border: 2px solid black;
 }
