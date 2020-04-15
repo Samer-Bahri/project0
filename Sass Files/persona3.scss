@@ -1,0 +1,34 @@
+.row {
+  padding: 10px;
+  background-color: cyan;
+  border: 2px solid black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+@media (min-width:600px) {
+  h1::before {
+    content: "Welcome to the Persona Compendium!";
+  }
+}
+@media (max-width:599px) {
+  h1::before {
+    content: "The Persona Compendium!";
+  }
+}
+table {
+  border-collapse: collapse;
+}
+
+table, td, tr, th {
+  border: 2px solid black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
